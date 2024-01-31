@@ -88,9 +88,6 @@ def get_docx_text(file):
     text = ' '.join(allText)
     return text
 
-def get_csv_text(file):
-    return "a"
-
 def get_text_chunks(text):
     # spilit ito chuncks
     text_splitter = CharacterTextSplitter(
